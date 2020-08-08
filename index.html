@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+<body background="black">
+    
+    <div class="container">
+        <h3> DAILY TO-DO LIST</h3>
+        
+        <input type="text" name="" id="item" placeholder="Enter an item....">
+
+        <button type="button" class="btn btn-primary" onclick="itemAdd()">ADD</button>
+        <button type="button" id="deleAll" class="btn btn-primary" onclick="delAll()">DELETE ALL</button>
+        
+        <ol id="list"></ol>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
